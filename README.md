@@ -1,5 +1,5 @@
 <body>
-  <h1 style="align: center;">Atacando una API</h1>
+  <h1 align: center;>Atacando una API</h1>
   <h2>BY: 
     <a src="https://github.com/Eriquito00">Eriquito00</a>
     and 
