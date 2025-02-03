@@ -1,0 +1,1 @@
+# codi que conte la api desenvolupada amb flask

@@ -1,0 +1,1 @@
+# codi que conte els scripts de consum de la api
