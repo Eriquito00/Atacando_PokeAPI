@@ -112,4 +112,4 @@ Principalmente guardaremos la siguiente informacion ofrecida por la Poke API:
     - versions[]
         - name
 
-##### BY: **[Eriquito00](https://github.com/Eriquito00)** and **[Ikerby341](https://github.com/Ikerby341)**
+###### BY: **[Eriquito00](https://github.com/Eriquito00)** and **[Ikerby341](https://github.com/Ikerby341)**
