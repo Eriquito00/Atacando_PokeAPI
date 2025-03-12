@@ -1,115 +1,26 @@
 # Atacando una API
 
-Principalmente guardaremos la siguiente informacion ofrecida por la Poke API:
+Aquest projecte té com a objectiu consumir la [PokeAPI](https://pokeapi.co/), emmagatzemar les dades en una base de dades relacional MySQL i replicar l'API original.
 
-[] Si este simbolo esta en algun atributo, es porque es un atributo tipo array.
+## Objectius
 
-? Si este simbolo esta en algun atributo, significa que podria esta bien pedir mas datos sobre ese parametro
+- Comprendre i consumir una API REST.
 
-## Enllaços de consulta a la API
+- Dissenyar i implementar una base de dades relacional.
 
-### evolution-chain/1-449
-    - chain
-        - evolves_to[]
-            - species
-                - name
-            - evolves_to[]
-                - species
-                    - name
-        - species
-            - name
-    - evolution_details[]
-        - min_level
-        - trigger
-            - name
-        - item
-            - name
+- Desenvolupar una API que serveixi les dades emmagatzemades.
 
-### generation/1-9
-    - main_region
-        - name
-    - name
-    - pokemon_species[] 
-        - name
-    - types[] 
-        - name
-    - version_groups[]
-        - name
-    - abilities[]
-        - name
+## Estructura del repositori
 
-### pokedex/1-33
-    - name
-    - pokemon_entries[]
-        - pokemon_species
-            - name
-    - version_groups[]
-        - name
-    - region
-        - name
-
-### pokemon/1-1025
-    - height
-    - name
-    - types[] 
-        - name
-    - weight
-    - abilities[]
-        - ability
-            - name
-    - moves[]
-        - move
-            - name
-    - sprites[]
-        - default_front
-
-### pokemon-habitat/1-9
-    - name
-    - pokemon_species[] 
-        - name
-
-### region/1-10
-    - locations[]
-        - name
-    - main_generation
-        - name
-    - name
-    - pokedexes[]
-        - name
-    - version_groups
-        - name
-    - legendary_pokemon[]
-        - name
-
-### type/1-19
-    - damage_relations
-        - double_damage_from[]
-            - name
-        - double_damage_to[]
-            - name
-        - half_damage_from[]
-            - name
-        - half_damage_to[]
-            - name
-        - no_damage_from[]
-            - name
-        - no_damage_to[]
-            - name
-
-### version/1-43
-    - name
-    - version_group
-        - name
-
-### version-group/1-27
-    - generation
-        - name
-    - name
-    - pokedexes[]
-        - name
-    - regions[]
-        - name
-    - versions[]
-        - name
+```
+- README.md     # Descripció del projecte
+- doc/          # Documentació addicional
+- src/          # Codi font
+  - consumer/   # Scripts per consumir la PokeAPI
+  - api/        # API desenvolupada
+- database/     # Model de dades i scripts SQL
+  - ddl/        # Sentències DDL per crear la base de dades
+  - dml/        # Sentències DML per inserir dades
+```
 
 ###### BY: **[Eriquito00](https://github.com/Eriquito00)** and **[Ikerby341](https://github.com/Ikerby341)**
