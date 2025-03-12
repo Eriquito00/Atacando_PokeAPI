@@ -60,8 +60,8 @@ Principalmente guardaremos la siguiente informacion ofrecida por la Poke API:
     - moves[]
         - move
             - name
-    - forms[]
-        - name
+    - sprites[]
+        - default_front
 
 ### pokemon-habitat/1-9
     - name
