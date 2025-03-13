@@ -4,14 +4,9 @@
 
 ### pokemon/1-1025
 - height
-- moves[]
-    - move
-        - name
 - name
 - sprites
     - default_front
-- types[]
-    - name
 - weight
 
 ### evolution-chain/1-449
