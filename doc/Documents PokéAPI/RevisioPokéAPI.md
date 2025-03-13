@@ -7,8 +7,6 @@
 - name
 - sprites
     - default_front
-- types[]
-    - name
 - weight
 
 ### evolution-chain/1-449
