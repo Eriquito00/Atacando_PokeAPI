@@ -132,4 +132,3 @@ CREATE TABLE types_generations (
 		  REFERENCES types (type_id),
     CONSTRAINT fk_generations_types_generations FOREIGN KEY (generation_id)
 		  REFERENCES generations (generation_id)
-);
