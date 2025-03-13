@@ -4,9 +4,6 @@
 
 ### pokemon/1-1025
 - height
-- moves[]
-    - move
-        - name
 - name
 - sprites
     - default_front
