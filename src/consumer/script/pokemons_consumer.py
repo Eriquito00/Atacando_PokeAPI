@@ -67,10 +67,9 @@ def get_pokemon_data(pokemon_id):
     }
 
 def get_all_pokemon():
-    total_pokemon = 5
     all_pokemon_data = []
     
-    for pokemon_id in range(1, total_pokemon + 1):
+    for pokemon_id in range(1, get_total_pokemon() + 1):
         try:
             pokemon_data = get_pokemon_data(pokemon_id)
             if pokemon_data:
@@ -79,13 +78,22 @@ def get_all_pokemon():
         except Exception as e:
             print(f"Error con el Pokémon ID {pokemon_id}: {e}")
     
-    os.makedirs("caballo\data", exist_ok=True)
-    with open(os.path.join("..","data", "data_pokemons_consumer_PRUEBA.json"), "w", encoding="utf-8") as f:
-        json.dump(all_pokemon_data, f, indent=4, ensure_ascii=False)
+    parent_directory = os.path.dirname(os.path.abspath(__file__))
+    data_directory = os.path.join(parent_directory, '..', 'data')
+    os.makedirs(data_directory, exist_ok=True)
+
+    file_path = os.path.join(data_directory, "data_pokemons_consumer.json")
+    
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(all_pokemon_data, f, indent=4, ensure_ascii=False)
+        print(f"Datos guardados en {os.path.abspath(file_path)}")
+    except Exception as e:
+        print(f"Error al guardar el archivo: {e}")
     
     return all_pokemon_data
 
 if __name__ == "__main__":
     print("Obteniendo datos de todos los Pokémon...")
     all_pokemon = get_all_pokemon()
-    print("Datos guardados en data_pokemons_consumer_PRUEBA.json")
+    print("Datos guardados en data_pokemons_consumer.json")
