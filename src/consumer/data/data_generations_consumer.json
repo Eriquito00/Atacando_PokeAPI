@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "generation-i",
+        "region_id": 1
+    },
+    {
+        "nombre": "generation-ii",
+        "region_id": 2
+    },
+    {
+        "nombre": "generation-iii",
+        "region_id": 3
+    },
+    {
+        "nombre": "generation-iv",
+        "region_id": 4
+    },
+    {
+        "nombre": "generation-v",
+        "region_id": 5
+    },
+    {
+        "nombre": "generation-vi",
+        "region_id": 6
+    },
+    {
+        "nombre": "generation-vii",
+        "region_id": 7
+    },
+    {
+        "nombre": "generation-viii",
+        "region_id": 8
+    },
+    {
+        "nombre": "generation-ix",
+        "region_id": 9
+    }
+]
