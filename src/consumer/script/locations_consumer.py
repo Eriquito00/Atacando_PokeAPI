@@ -24,7 +24,6 @@ def get_location_data(location_id):
     if not location_name or not region_url:
         return None
 
-    # Extraer el número final de la URL (ej: .../region/4/)
     region_id = int(region_url.strip('/').split('/')[-1])
     
     return {

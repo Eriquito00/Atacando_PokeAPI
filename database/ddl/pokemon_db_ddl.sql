@@ -1,10 +1,12 @@
+DROP DATABASE IF EXISTS pokemon_db;
+
 CREATE DATABASE pokemon_db;
 
 USE pokemon_db;
 
 CREATE TABLE sprites (
 	sprite_id		INT UNSIGNED AUTO_INCREMENT,
-    sprite			VARCHAR(45) NOT NULL,
+    sprite			VARCHAR(250) NOT NULL,
     CONSTRAINT pk_sprites PRIMARY KEY (sprite_id)
 );
 
