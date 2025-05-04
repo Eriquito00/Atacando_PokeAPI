@@ -1,0 +1,137 @@
+[
+    {
+        "name": "red-blue",
+        "generation_id": 1,
+        "region_id": 1
+    },
+    {
+        "name": "yellow",
+        "generation_id": 1,
+        "region_id": 1
+    },
+    {
+        "name": "gold-silver",
+        "generation_id": 2,
+        "region_id": 2
+    },
+    {
+        "name": "crystal",
+        "generation_id": 2,
+        "region_id": 2
+    },
+    {
+        "name": "ruby-sapphire",
+        "generation_id": 3,
+        "region_id": 3
+    },
+    {
+        "name": "emerald",
+        "generation_id": 3,
+        "region_id": 3
+    },
+    {
+        "name": "firered-leafgreen",
+        "generation_id": 3,
+        "region_id": 3
+    },
+    {
+        "name": "diamond-pearl",
+        "generation_id": 4,
+        "region_id": 4
+    },
+    {
+        "name": "platinum",
+        "generation_id": 4,
+        "region_id": 4
+    },
+    {
+        "name": "heartgold-soulsilver",
+        "generation_id": 4,
+        "region_id": 4
+    },
+    {
+        "name": "black-white",
+        "generation_id": 5,
+        "region_id": 5
+    },
+    {
+        "name": "colosseum",
+        "generation_id": 3,
+        "region_id": 3
+    },
+    {
+        "name": "xd",
+        "generation_id": 3,
+        "region_id": 3
+    },
+    {
+        "name": "black-2-white-2",
+        "generation_id": 5,
+        "region_id": 5
+    },
+    {
+        "name": "x-y",
+        "generation_id": 6,
+        "region_id": 6
+    },
+    {
+        "name": "omega-ruby-alpha-sapphire",
+        "generation_id": 6,
+        "region_id": 6
+    },
+    {
+        "name": "sun-moon",
+        "generation_id": 7,
+        "region_id": 7
+    },
+    {
+        "name": "ultra-sun-ultra-moon",
+        "generation_id": 7,
+        "region_id": 7
+    },
+    {
+        "name": "lets-go-pikachu-lets-go-eevee",
+        "generation_id": 7,
+        "region_id": 7
+    },
+    {
+        "name": "sword-shield",
+        "generation_id": 8,
+        "region_id": 8
+    },
+    {
+        "name": "the-isle-of-armor",
+        "generation_id": 8,
+        "region_id": 8
+    },
+    {
+        "name": "the-crown-tundra",
+        "generation_id": 8,
+        "region_id": 8
+    },
+    {
+        "name": "brilliant-diamond-and-shining-pearl",
+        "generation_id": 8,
+        "region_id": 8
+    },
+    {
+        "name": "legends-arceus",
+        "generation_id": 8,
+        "region_id": 8
+    },
+    {
+        "name": "scarlet-violet",
+        "generation_id": 9,
+        "region_id": 10
+    },
+    {
+        "name": "the-teal-mask",
+        "generation_id": 9,
+        "region_id": 10
+    },
+    {
+        "name": "the-indigo-disk",
+        "generation_id": 9,
+        "region_id": 10
+    }
+]

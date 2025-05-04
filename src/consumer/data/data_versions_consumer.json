@@ -1,0 +1,174 @@
+[
+    {
+        "name": "red",
+        "version_group_id": 1
+    },
+    {
+        "name": "blue",
+        "version_group_id": 1
+    },
+    {
+        "name": "yellow",
+        "version_group_id": 2
+    },
+    {
+        "name": "gold",
+        "version_group_id": 3
+    },
+    {
+        "name": "silver",
+        "version_group_id": 3
+    },
+    {
+        "name": "crystal",
+        "version_group_id": 4
+    },
+    {
+        "name": "ruby",
+        "version_group_id": 5
+    },
+    {
+        "name": "sapphire",
+        "version_group_id": 5
+    },
+    {
+        "name": "emerald",
+        "version_group_id": 6
+    },
+    {
+        "name": "firered",
+        "version_group_id": 7
+    },
+    {
+        "name": "leafgreen",
+        "version_group_id": 7
+    },
+    {
+        "name": "diamond",
+        "version_group_id": 8
+    },
+    {
+        "name": "pearl",
+        "version_group_id": 8
+    },
+    {
+        "name": "platinum",
+        "version_group_id": 9
+    },
+    {
+        "name": "heartgold",
+        "version_group_id": 10
+    },
+    {
+        "name": "soulsilver",
+        "version_group_id": 10
+    },
+    {
+        "name": "black",
+        "version_group_id": 11
+    },
+    {
+        "name": "white",
+        "version_group_id": 11
+    },
+    {
+        "name": "colosseum",
+        "version_group_id": 12
+    },
+    {
+        "name": "xd",
+        "version_group_id": 13
+    },
+    {
+        "name": "black-2",
+        "version_group_id": 14
+    },
+    {
+        "name": "white-2",
+        "version_group_id": 14
+    },
+    {
+        "name": "x",
+        "version_group_id": 15
+    },
+    {
+        "name": "y",
+        "version_group_id": 15
+    },
+    {
+        "name": "omega-ruby",
+        "version_group_id": 16
+    },
+    {
+        "name": "alpha-sapphire",
+        "version_group_id": 16
+    },
+    {
+        "name": "sun",
+        "version_group_id": 17
+    },
+    {
+        "name": "moon",
+        "version_group_id": 17
+    },
+    {
+        "name": "ultra-sun",
+        "version_group_id": 18
+    },
+    {
+        "name": "ultra-moon",
+        "version_group_id": 18
+    },
+    {
+        "name": "lets-go-pikachu",
+        "version_group_id": 19
+    },
+    {
+        "name": "lets-go-eevee",
+        "version_group_id": 19
+    },
+    {
+        "name": "sword",
+        "version_group_id": 20
+    },
+    {
+        "name": "shield",
+        "version_group_id": 20
+    },
+    {
+        "name": "the-isle-of-armor",
+        "version_group_id": 21
+    },
+    {
+        "name": "the-crown-tundra",
+        "version_group_id": 22
+    },
+    {
+        "name": "brilliant-diamond",
+        "version_group_id": 23
+    },
+    {
+        "name": "shining-pearl",
+        "version_group_id": 23
+    },
+    {
+        "name": "legends-arceus",
+        "version_group_id": 24
+    },
+    {
+        "name": "scarlet",
+        "version_group_id": 25
+    },
+    {
+        "name": "violet",
+        "version_group_id": 25
+    },
+    {
+        "name": "the-teal-mask",
+        "version_group_id": 26
+    },
+    {
+        "name": "the-indigo-disk",
+        "version_group_id": 27
+    }
+]
