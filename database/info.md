@@ -1,1 +1,0 @@
-# esquema E/R i el model relacional (Workbench, SQL scripts)

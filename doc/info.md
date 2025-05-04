@@ -1,1 +1,0 @@
-# directori per la documentacio addicional
