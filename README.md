@@ -94,11 +94,11 @@ Ara ja tindriem la base de dades aixecada, amb les dades introduides i tot prepa
 
 ## Altre informacio del projecte
 
-##### Perque hem utilitzat Xampp i no docker?
+#### Perque hem utilitzat Xampp i no docker?
 
 Nosaltres hem volgut utilitzar Xampp per aixecar la base de dades ja que encara no dominem docker com per crear un projecte solid utilitzant docker pero acceptem alguna pull request del projecte amb altres features o utilitzant docker tot i que fer-ho mes endavant amb docker es una idea que tenim en ment.
 
-##### Perque no s'inserten les dades consumides directament a la base de dades?
+#### Perque no s'inserten les dades consumides directament a la base de dades?
 
 Hem decidit finalment fer scripts de consum i de insert totalment separats perque obtenir les dades de la API es un proces lent i no voliem que cada vegada que fem un cambi o que necesitem fer un clon del repositori tinguem que esperar una bona estona per tenir les dades.
 
