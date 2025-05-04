@@ -94,16 +94,16 @@ Ara ja tindriem la base de dades aixecada, amb les dades introduides i tot prepa
 
 ## Altre informacio del projecte
 
-Perque hem utilitzat Xampp i no docker?
+##### Perque hem utilitzat Xampp i no docker?
 
 Nosaltres hem volgut utilitzar Xampp per aixecar la base de dades ja que encara no dominem docker com per crear un projecte solid utilitzant docker pero acceptem alguna pull request del projecte amb altres features o utilitzant docker tot i que fer-ho mes endavant amb docker es una idea que tenim en ment.
 
-Perque no s'inserten les dades consumides directament a la base de dades?
+##### Perque no s'inserten les dades consumides directament a la base de dades?
 
 Hem decidit finalment fer scripts de consum i de insert totalment separats perque obtenir les dades de la API es un proces lent i no voliem que cada vegada que fem un cambi o que necesitem fer un clon del repositori tinguem que esperar una bona estona per tenir les dades.
 
 Per aixo vam fer scripts per obtenir dades i guardarles als fitxers json i que nomes tinguem que executar els scripts de consum quan hi hagin mes pokemons, mes regions, mes versions etc i tenir les dades preparades per ser insertades a la base de dades en qualsevol moment.
 
-Tambe tenim varies consultes al fitxer 'pokemon_db_dml.sql' per poder fer tests amb varies consultes a la nostre base de dades.
+##### Tambe tenim varies consultes al fitxer 'pokemon_db_dml.sql' per poder fer tests amb varies consultes a la nostre base de dades.
 
 ###### BY: **[Eriquito00](https://github.com/Eriquito00)** and **[Ikerby341](https://github.com/Ikerby341)**
